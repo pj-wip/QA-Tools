@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px 0;
+	min-height: 100vh;
+	background: #d6eadf;
+	font-family: "Montserrat", sans-serif;
+}
+
+.table-editable {
+    text-align: center;
+}
+
+h2 {
+    display: inline-block; /* Shrinks width to text */
+    margin: 0;             /* Removes top/bottom spacing */
+    font-size: 1.5em;      /* Adjust font size */
+	color: #ffffff;
+}
+
+td {
+	/* to change the background colors of the td cells */
+	background-color: #ffffff;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-family: "Montserrat", sans-serif;
+	
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+th {
+	text-align: center;
+	color: #ffffff;
+}
+td {
+	text-align: left;
+	font-size: 11pt;
+}
+
+.text-box{
+	background: #d6eadf;
+}
+
+
+
+ /*------------------------------------------------------ TABLE DIVS ------------------------------------------------------ */ 
+
+.master_checklist_div { 
+	width: 984px;
+	height: 554px;
+	background-color: #351c75;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pdp_creation_checklist_div { 
+	width: 1035px;
+	height: 680px;
+	background-color: #351c75;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.seo_requests_checklist_div{ 
+	width: 860px;
+	height: 190px;
+	background-color: #351c75;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.highlights_checklist_div{ 
+	width: 1035px;
+	height: 510px;
+	background-color: #351c75;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.promotion_checklist_div{ 
+	width: 1050px;
+	height: 465px;
+	background-color: #351c75;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.shiseido_pdp_creation_checklist_div { 
+	width: 1035px;
+	height: 740px;
+	background-color: #351c75;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.general_pages_checklist_div { 
+	width: 995px;
+	height: 465px;
+	background-color: #351c75;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ /*------------------------------------------------------  TABLE DIVS End ------------------------------------------------------ */ 
+
+
+
+/*------------------------------------------------------ Check box settings ------------------------------------------------------*/
+    /* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 18px;
+  margin-left: 15px;
+  margin-top: 1.5px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  flex-direction: column;
+  background: #d6eadf;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #d4d4d4;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #d4d4d4;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #000000;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 5px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/*------------------------------------------------------Check box settings ------------------------------------------------------*/
+
+
+
+.takeImageBtn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.7rem 2rem;
+	font-weight: 600;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #A3BDED;
+	backface-visibility: hidden;
+	border: 0.3rem solid transparent;
+	border-radius: 3rem;
+	width: 400px;
+	height: 50px;
+  }
+  
+  .takeImageBtn1 {
+	border-color: transparent;
+	background-color: #A3BDED;
+	color: #000;
+	transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+	
+  .takeImageBtn1:hover {
+	transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+
+
+.pt-3-half {
+  padding-top: 1.4rem;
+}
+
+
+
+
+
+

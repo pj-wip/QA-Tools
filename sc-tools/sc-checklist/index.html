@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShiseiCore QA Checklist Hub</title>
+</head>
+<body>
+
+    <div class="nav-header">
+        <div class="title" id="current-view">General Checklist 2026</div>
+        <div class="switch-container">
+            <span class="label-text">General Checklist 2026</span>
+            <label class="switch">
+                <input type="checkbox" id="viewToggle" onchange="switchPage()">
+                <span class="slider"></span>
+            </label>
+            <span class="label-text">Shiseido Checklist 2026</span>
+        </div>
+    </div>
+
+    <iframe id="content-frame" src="general-checklist-index.html"></iframe>
+
+    <script>
+        function switchPage() {
+            const toggle = document.getElementById('viewToggle');
+            const frame = document.getElementById('content-frame');
+            const title = document.getElementById('current-view');
+
+            if (toggle.checked) {
+                // Switch to Shiseido Checklist 2026
+                frame.src = "shiseido-checklist-index.html";
+                title.innerText = "Shiseido Checklist 2026";
+
+
+            } else {
+                // Switch back to General Checklist 2026
+                frame.src = "general-checklist-index.html";
+                // frame.src = "pdp-creation-checklist.html";
+                title.innerText = "General Checklist 2026";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+<style>
+    :root {
+        --bg-color: #e0f2f1;
+        --purple-primary: #301961;
+    }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: sans-serif;
+        background-color: var(--bg-color);
+        overflow: hidden; /* Prevents double scrollbars */
+    }
+
+    /* Header Navigation Area */
+    .nav-header {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: var(--bg-color);
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+    }
+
+    .title {
+        font-size: 14px;
+        font-weight: bold;
+        color: var(--purple-primary);
+        margin-bottom: 5px;
+        text-transform: uppercase;
+    }
+
+    /* The Toggle Switch */
+    .switch-container {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 26px;
+    }
+
+    .switch input { opacity: 0; width: 0; height: 0; }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: var(--purple-primary);
+        transition: .4s;
+        border-radius: 34px;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 18px; width: 18px;
+        left: 4px; bottom: 4px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+    input:checked + .slider { background-color: #000; }
+    input:checked + .slider:before { transform: translateX(24px); }
+
+    .label-text {
+        font-size: 12px;
+        font-weight: 600;
+        color: #555;
+    }
+
+    /* The Content Frame */
+    #content-frame {
+        width: 100%;
+        height: calc(100vh - 80px); /* Fill the rest of the screen */
+        border: none;
+    }
+</style>

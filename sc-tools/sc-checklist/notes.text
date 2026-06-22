@@ -1,0 +1,68 @@
+<script>
+  // Select the checkboxes by their helper classes
+  const checkY = document.querySelector('.js-y');
+  const checkN = document.querySelector('.js-n');
+  const checkNA = document.querySelector('.js-na');
+
+  // Listener for Y checkbox
+  checkY.addEventListener('change', () => {
+    if (checkY.checked) {
+      checkNA.checked = false;
+	  checkN.checked = false;
+    } 
+    // If Y is unchecked AND N is also unchecked, reset to NA
+    else if (!checkN.checked) {
+      checkNA.checked = true;
+	  checkY.checked = false
+    }
+  });
+
+  // Listener for N checkbox
+  checkN.addEventListener('change', () => {
+    if (checkN.checked) {
+      checkNA.checked = false;
+	  checkY.checked = false;
+    } 
+    // If N is unchecked AND Y is also unchecked, reset to NA
+    else if (!checkY.checked) {
+      checkNA.checked = true;
+	  checkN.checked = false;
+    }
+  });
+
+  // Listener for NA checkbox (unchecks Y and N if NA is clicked)
+  checkNA.addEventListener('change', () => {
+    if (checkNA.checked) {
+      checkY.checked = false;
+      checkN.checked = false;
+    } else {
+      // Prevent NA from being unchecked manually if Y and N are already empty
+      if (!checkY.checked && !checkN.checked) {
+        checkNA.checked = true;
+      }
+    }
+  });
+</script>
+
+
+
+// Checkbox JS script
+const y = document.querySelector('.js-y');
+const n = document.querySelector('.js-n');
+const na = document.querySelector('.js-na');
+const group = [y, n, na];
+
+group.forEach(box => {
+box.addEventListener('change', () => {
+	// 1. If we checked a box, uncheck the other two
+	if (box.checked) {
+	group.forEach(other => {
+		if (other !== box) other.checked = false;
+	});
+	} 
+	// 2. If we unchecked a box and nothing is selected, default to NA
+	else if (!y.checked && !n.checked && !na.checked) {
+	na.checked = true;
+	}
+});
+});

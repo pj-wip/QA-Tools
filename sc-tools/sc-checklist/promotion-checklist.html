@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body >
+	
+<!-- Promotion Checklist Checklist Table -->
+<div class="promotion_checklist_div" >
+<div id="table" class="table-editable" >
+
+	<h2 >Promotion Checklist</h2>
+
+<div style="display: flex; align-items: flex-start; gap: 15px; ">
+
+    <div style="display: flex; flex-direction: column; gap: 15px; width: 170px;">
+        <!-- Environment table -->
+        <table class="table table-bordered text-center" style="margin-bottom: 0;">
+            <thead>
+                <tr>
+                    <th ><i>Environment</i></th>
+                    <th >YN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td >Pre-QA</td>
+					<td > <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td >Post-QA</td>
+					<td > <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+            </tbody>
+        </table>
+
+		<!-- Page type table -->
+        <table class="table table-bordered text-center" style="margin-bottom: 0;">
+            <thead>
+                <tr>
+                    <th ><i>Page / Type</i></th>
+                    <th >YN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td >GWP as Bonus</td>
+                    <td > <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+                <tr>
+                    <td >GWP as Choice</td>
+                    <td > <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td >PWP</td>
+                    <td > <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td >Discount</td>
+                    <td > <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td >Free Shipping</td>
+                    <td > <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td >Pricebook</td>
+                    <td > <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="flex-grow: 1;">
+		<!-- Checklist table -->
+        <table class="table table-bordered" style="width: 850px;">
+            <thead>
+                <tr >
+                    <!-- Scopes ---> <th style="width: 60%; color:#ffffff"><i>Scopes and Limitations</i></th>
+                    <!-- Y --------> <th style="width: 5%; color:#ffffff">Y</th>
+                    <!-- N --------> <th style="width: 5%; color:#ffffff">N</th>
+                    <!-- NA -------> <th style="width: 5%; color:#ffffff">NA</th>
+                    <!-- Remarks --> <th style="width: 25%; color:#ffffff"><i>Remarks</i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- Scopes ---> <td >Accessibility Level (eq. Registered or any type of customer group)</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Coupon Code can be applied</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Discounts are correct and applied</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >DMP has been updated</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Excluded products are not working in the promotion</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Free shipping are applied</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >GWP / PWP / Sample is correct</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >PDP promo description + redirection</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Product price strike-through</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Promotion combinability</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Promotion exclusivity</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Promotion customer group</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Promotion description</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Promotion mechanics are followed</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Promotion progress bar + details</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Promotion works during live dates (for POST-QA Checking)</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Qualifier/s follow the brief</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+                <tr>
+                    <!-- Scopes ---> <td >Schedules are respected (BSD, SD, BED, ED)</td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+	            <tr>
+                    <!-- Scopes ---> <td style="font-weight:bold;">Others:  </td>
+                    <!-- Y --------> <td > <label class="container"> <input type="checkbox" class="js-y"> <span class="checkmark"></span> </label> </td>
+                    <!-- N --------> <td > <label class="container"> <input type="checkbox" class="js-n"> <span class="checkmark"></span> </label> </td>
+                    <!-- NA -------> <td > <label class="container"> <input type="checkbox" class="js-na" checked> <span class="checkmark"></span> </label> </td>
+                    <!-- Remarks --> <td contenteditable="true" ></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</table>
+</div>
+</div>
+<button class="takeImageBtn takeImageBtn1" >Screenshot</button>
+<!-- End Checklist table -->
+
+</body>
+</html>
+
+<script src="./html2canvas.js"></script>
+<script src="./index.js"></script>

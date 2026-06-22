@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+	<h2 style="text-align: center;">Page Online/Offline</h2>
+<!-- Product Offline Checklist Table -->
+<div class="productoffline_checklist_div">
+<div id="table" class="table-editable">
+<!-- <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-success"><i class="fas fa-plus fa-2x" aria-hidden="true"></i><a></span> -->
+	<table class="table table-bordered text-center">
+		<thead>
+			<tr>
+				<th bgcolor="#d9d2e9" style="font-size:11pt;" class="text-center"  >Page Activation/ Deactivation</th>
+				<th bgcolor="#d9d2e9" style="font-size:11pt;" class="text-center" >Y/N&nbsp;&nbsp;</th>
+				<th bgcolor="#d9d2e9" style="font-size:11pt;" class="text-center">Remarks if there's any&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+			</tr>
+		</thead>
+	<tbody>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Schedules are respected (Before Start Date, Start Date, Before End Date, and End Date)        </td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox01" id="togglecheckbox01" onclick="yesno('togglecheckbox01','valueforcheckbox01');" hidden/> <label for="togglecheckbox01" name="valueforcheckbox01" id="valueforcheckbox01">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Page Online/ Offline (PDP, LP, CLP, etc..)</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox02" id="togglecheckbox02" onclick="yesno('togglecheckbox02','valueforcheckbox02');" hidden/> <label for="togglecheckbox02" name="valueforcheckbox02" id="valueforcheckbox02">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Page redirects to its specific page</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox03" id="togglecheckbox03" onclick="yesno('togglecheckbox03','valueforcheckbox03');" hidden/> <label for="togglecheckbox03" name="valueforcheckbox03" id="valueforcheckbox03">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Page redirects to 404/ 303 or error page</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox04" id="togglecheckbox04" onclick="yesno('togglecheckbox04','valueforcheckbox04');" hidden/> <label for="togglecheckbox04" name="valueforcheckbox04" id="valueforcheckbox04">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Product/Page should be searchable</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox05" id="togglecheckbox05" onclick="yesno('togglecheckbox05','valueforcheckbox05');" hidden/> <label for="togglecheckbox05" name="valueforcheckbox05" id="valueforcheckbox05">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<!-- v6 added -->
+			<td contenteditable="true" style="font-size:11pt;">Overall request does/does not affect other websites (locales, ILM, ...)</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox051" id="togglecheckbox051" onclick="yesno('togglecheckbox051','valueforcheckbox051');" hidden/> <label for="togglecheckbox051" name="valueforcheckbox051" id="valueforcheckbox051">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td style=" font-weight:bold" contenteditable="true" style="font-size:11pt;">Other:</td>
+			<td style="text-align:center; font-weight:bold" contenteditable="true" style="font-size:11pt;">	
+				<input type="checkbox" name="togglecheckbox00" id="togglecheckbox00" onclick="yesno('togglecheckbox00','valueforcheckbox00');" hidden/> <label for="togglecheckbox00" name="valueforcheckbox00" id="valueforcheckbox00">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<button class="takeImageBtn takeImageBtn1" >Screenshot</button>
+<!-- End Checklist table -->
+
+</body>
+</html>
+
+<script src="./html2canvas.js"></script>
+<script src="./index.js"></script>

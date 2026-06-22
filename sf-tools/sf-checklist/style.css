@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px 0;
+	min-height: 100vh;
+	background: #d6eadf;
+	font-family: "Montserrat", sans-serif;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-family: "Montserrat", sans-serif;
+	
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+td, th {
+	text-align: left;
+}
+  
+.frames{
+	width: 950px;
+	height: 600px;
+	
+}
+
+.container{
+	display:flex;
+	flex-direction: column;
+	background: #d6eadf;
+}
+
+.text-box{
+	background: #d6eadf;
+}
+
+ /* TABLE DIVs*/ 
+.general_checklist_div {
+	width: 1170px;
+	height: 796px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.homepage_div {
+	width: 1186px;
+	height: 780px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.landingpage_checklist_div { 
+	width: 1185px;
+	height: 780px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.productpage_checklist_div { 
+	width: 1182px;
+	height: 1155px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.categorypage_checklist_div { 
+	width: 1186px;
+	height: 910px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.promotion_checklist_div { 
+	width: 950px;
+	height: 313px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gwppromotion_checklist_div { 
+	width: 958px;
+	height: 338px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cartpage_checklist_div { 
+	width: 1186px;
+	height: 630px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navigation_checklist_div { 
+	width: 1186px;
+	height: 610px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer_checklist_div { 
+	width: 1186px;
+	height: 520px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.productoffline_checklist_div { 
+	width: 947px;
+	height: 180px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ /* End*/ 
+
+
+.takeImageBtn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.7rem 2rem;
+	font-weight: 600;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #A3BDED;
+	backface-visibility: hidden;
+	border: 0.3rem solid transparent;
+	border-radius: 3rem;
+	width: 400px;
+	height: 50px;
+  }
+  
+  .takeImageBtn1 {
+	border-color: transparent;
+	background-color: #A3BDED;
+	color: #000;
+	transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+	
+  .takeImageBtn1:hover {
+	transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+
+
+
+.pt-3-half {
+  padding-top: 1.4rem;
+}
+
+
+
+
+
+

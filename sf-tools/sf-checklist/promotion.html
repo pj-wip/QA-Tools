@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+	<h2 style="text-align: center;">Promotion Creation</h2>
+<!-- Promotion Checklist Table -->
+<div class="promotion_checklist_div">
+<div id="table" class="table-editable">
+<!-- <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-success"><i class="fas fa-plus fa-2x" aria-hidden="true"></i><a></span> -->
+	<table class="table table-bordered text-center">
+		<thead>
+			<tr>
+				<th bgcolor="#d9d2e9" style="font-size:11pt;" class="text-center"  >Discount Promotion</th>
+				<th bgcolor="#d9d2e9" style="font-size:11pt;" class="text-center" >Y/N&nbsp;&nbsp;</th>
+				<th bgcolor="#d9d2e9" style="font-size:11pt;" class="text-center">Remarks if there's any&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+			</tr>
+		</thead>
+	<tbody>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Accessibility Level (eq. Registered or any type of customer group)</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox01" id="togglecheckbox01" onclick="yesno('togglecheckbox01','valueforcheckbox01');" hidden/> <label for="togglecheckbox01" name="valueforcheckbox01" id="valueforcheckbox01">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Schedules are respected (Before Start Date, Start Date, Before End Date, and End Date)</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox02" id="togglecheckbox02" onclick="yesno('togglecheckbox02','valueforcheckbox02');" hidden/> <label for="togglecheckbox02" name="valueforcheckbox02" id="valueforcheckbox02">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Promotion works during live dates (for POST-QA Checking)</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox03" id="togglecheckbox03" onclick="yesno('togglecheckbox03','valueforcheckbox03');" hidden/> <label for="togglecheckbox03" name="valueforcheckbox03" id="valueforcheckbox03">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Qualifier/s follow the brief</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox05" id="togglecheckbox05" onclick="yesno('togglecheckbox05','valueforcheckbox05');" hidden/> <label for="togglecheckbox05" name="valueforcheckbox05" id="valueforcheckbox05">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Excluded products are not working in the promotion</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox06" id="togglecheckbox06" onclick="yesno('togglecheckbox06','valueforcheckbox06');" hidden/> <label for="togglecheckbox06" name="valueforcheckbox06" id="valueforcheckbox06">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Promotion mechanics are working properly</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox07" id="togglecheckbox07" onclick="yesno('togglecheckbox07','valueforcheckbox07');" hidden/> <label for="togglecheckbox07" name="valueforcheckbox07" id="valueforcheckbox07">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Promotion compatibility</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox08" id="togglecheckbox08" onclick="yesno('togglecheckbox08','valueforcheckbox08');" hidden/> <label for="togglecheckbox08" name="valueforcheckbox08" id="valueforcheckbox08">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">DMP has been updated</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox09" id="togglecheckbox09" onclick="yesno('togglecheckbox09','valueforcheckbox09');" hidden/> <label for="togglecheckbox09" name="valueforcheckbox09" id="valueforcheckbox09">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Promotion details are correct (promotion name, mechanics, customer group, etc...)</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox10" id="togglecheckbox10" onclick="yesno('togglecheckbox10','valueforcheckbox10');" hidden/> <label for="togglecheckbox10" name="valueforcheckbox10" id="valueforcheckbox10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Promotion message description</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox13" id="togglecheckbox13" onclick="yesno('togglecheckbox13','valueforcheckbox13');" hidden/> <label for="togglecheckbox13" name="valueforcheckbox13" id="valueforcheckbox13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Product price (discounted or stricken-through)</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox11" id="togglecheckbox11" onclick="yesno('togglecheckbox11','valueforcheckbox11');" hidden/> <label for="togglecheckbox11" name="valueforcheckbox11" id="valueforcheckbox11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td contenteditable="true" style="font-size:11pt;">Coupon Code is respected</td>
+			<td style="text-align:center; font-weight:bold;" contenteditable="true" style="font-size:11pt;">
+				<input type="checkbox" name="togglecheckbox12" id="togglecheckbox12" onclick="yesno('togglecheckbox12','valueforcheckbox12');" hidden/> <label for="togglecheckbox12" name="valueforcheckbox12" id="valueforcheckbox12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		<tr>
+			<td style=" font-weight:bold" contenteditable="true" style="font-size:11pt;">Other:</td>
+			<td style="text-align:center; font-weight:bold" contenteditable="true" style="font-size:11pt;">	
+				<input type="checkbox" name="togglecheckbox00" id="togglecheckbox00" onclick="yesno('togglecheckbox00','valueforcheckbox00');" hidden/> <label for="togglecheckbox00" name="valueforcheckbox00" id="valueforcheckbox00">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+		</tr>
+		
+	</tbody>
+</table>
+</div>
+</div>
+<button class="takeImageBtn takeImageBtn1" >Screenshot</button>
+<!-- End Checklist table -->
+
+</body>
+</html>
+
+<script src="./html2canvas.js"></script>
+<script src="./index.js"></script>

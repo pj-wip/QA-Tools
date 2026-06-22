@@ -1,0 +1,1414 @@
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 2px solid black;
+	text-align: left;
+  
+  }
+  
+
+
+<tr> <!-- 01 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox01" id="togglecheckbox01" onclick="yesno('togglecheckbox01','valueforcheckbox01');" hidden/>
+		<label for="togglecheckbox01" name="valueforcheckbox01" id="valueforcheckbox01">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 02 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox02" id="togglecheckbox02" onclick="yesno('togglecheckbox02','valueforcheckbox02');" hidden/>
+		<label for="togglecheckbox02" name="valueforcheckbox02" id="valueforcheckbox02">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 03 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox03" id="togglecheckbox03" onclick="yesno('togglecheckbox03','valueforcheckbox03');" hidden/>
+		<label for="togglecheckbox03" name="valueforcheckbox03" id="valueforcheckbox03">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 04 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox04" id="togglecheckbox04" onclick="yesno('togglecheckbox04','valueforcheckbox04');" hidden/>
+		<label for="togglecheckbox04" name="valueforcheckbox04" id="valueforcheckbox04">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 05 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox05" id="togglecheckbox05" onclick="yesno('togglecheckbox05','valueforcheckbox05');" hidden/>
+		<label for="togglecheckbox05" name="valueforcheckbox05" id="valueforcheckbox05">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 06 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox06" id="togglecheckbox06" onclick="yesno('togglecheckbox06','valueforcheckbox06');" hidden/>
+		<label for="togglecheckbox06" name="valueforcheckbox06" id="valueforcheckbox06">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 07 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox07" id="togglecheckbox07" onclick="yesno('togglecheckbox07','valueforcheckbox07');" hidden/>
+		<label for="togglecheckbox07" name="valueforcheckbox07" id="valueforcheckbox07">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 08 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox08" id="togglecheckbox08" onclick="yesno('togglecheckbox08','valueforcheckbox08');" hidden/>
+		<label for="togglecheckbox08" name="valueforcheckbox08" id="valueforcheckbox08">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 09 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox09" id="togglecheckbox09" onclick="yesno('togglecheckbox09','valueforcheckbox09');" hidden/>
+		<label for="togglecheckbox09" name="valueforcheckbox09" id="valueforcheckbox09">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 10 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox10" id="togglecheckbox10" onclick="yesno('togglecheckbox10','valueforcheckbox10');" hidden/>
+		<label for="togglecheckbox10" name="valueforcheckbox10" id="valueforcheckbox10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 11 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox11" id="togglecheckbox11" onclick="yesno('togglecheckbox11','valueforcheckbox11');" hidden/>
+		<label for="togglecheckbox11" name="valueforcheckbox11" id="valueforcheckbox11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 12 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox12" id="togglecheckbox12" onclick="yesno('togglecheckbox12','valueforcheckbox12');" hidden/>
+		<label for="togglecheckbox12" name="valueforcheckbox12" id="valueforcheckbox12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 13 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox13" id="togglecheckbox13" onclick="yesno('togglecheckbox13','valueforcheckbox13');" hidden/>
+		<label for="togglecheckbox13" name="valueforcheckbox13" id="valueforcheckbox13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 14 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox14" id="togglecheckbox14" onclick="yesno('togglecheckbox14','valueforcheckbox14');" hidden/>
+		<label for="togglecheckbox14" name="valueforcheckbox14" id="valueforcheckbox14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 15 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox15" id="togglecheckbox15" onclick="yesno('togglecheckbox15','valueforcheckbox15');" hidden/>
+		<label for="togglecheckbox15" name="valueforcheckbox15" id="valueforcheckbox15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 16 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox16" id="togglecheckbox16" onclick="yesno('togglecheckbox16','valueforcheckbox16');" hidden/>
+		<label for="togglecheckbox16" name="valueforcheckbox16" id="valueforcheckbox16">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 17 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox17" id="togglecheckbox17" onclick="yesno('togglecheckbox17','valueforcheckbox17');" hidden/>
+		<label for="togglecheckbox17" name="valueforcheckbox17" id="valueforcheckbox17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 18 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox18" id="togglecheckbox18" onclick="yesno('togglecheckbox18','valueforcheckbox18');" hidden/>
+		<label for="togglecheckbox18" name="valueforcheckbox18" id="valueforcheckbox18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 19 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox19" id="togglecheckbox19" onclick="yesno('togglecheckbox19','valueforcheckbox19');" hidden/>
+		<label for="togglecheckbox19" name="valueforcheckbox19" id="valueforcheckbox19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 20 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox20" id="togglecheckbox20" onclick="yesno('togglecheckbox20','valueforcheckbox20');" hidden/>
+		<label for="togglecheckbox20" name="valueforcheckbox20" id="valueforcheckbox20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 21 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox21" id="togglecheckbox21" onclick="yesno('togglecheckbox21','valueforcheckbox21');" hidden/>
+		<label for="togglecheckbox21" name="valueforcheckbox21" id="valueforcheckbox21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 22 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox22" id="togglecheckbox22" onclick="yesno('togglecheckbox22','valueforcheckbox22');" hidden/>
+		<label for="togglecheckbox22" name="valueforcheckbox22" id="valueforcheckbox22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 23 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox23" id="togglecheckbox23" onclick="yesno('togglecheckbox23','valueforcheckbox23');" hidden/>
+		<label for="togglecheckbox23" name="valueforcheckbox23" id="valueforcheckbox23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 24 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox24" id="togglecheckbox24" onclick="yesno('togglecheckbox24','valueforcheckbox24');" hidden/>
+		<label for="togglecheckbox24" name="valueforcheckbox24" id="valueforcheckbox24">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 25 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox25" id="togglecheckbox25" onclick="yesno('togglecheckbox25','valueforcheckbox25');" hidden/>
+		<label for="togglecheckbox25" name="valueforcheckbox25" id="valueforcheckbox25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 26 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox26" id="togglecheckbox26" onclick="yesno('togglecheckbox26','valueforcheckbox26');" hidden/>
+		<label for="togglecheckbox26" name="valueforcheckbox26" id="valueforcheckbox26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 27 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox27" id="togglecheckbox27" onclick="yesno('togglecheckbox27','valueforcheckbox27');" hidden/>
+		<label for="togglecheckbox27" name="valueforcheckbox27" id="valueforcheckbox27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 28 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox28" id="togglecheckbox28" onclick="yesno('togglecheckbox28','valueforcheckbox28');" hidden/>
+		<label for="togglecheckbox28" name="valueforcheckbox28" id="valueforcheckbox28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 29 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox29" id="togglecheckbox29" onclick="yesno('togglecheckbox29','valueforcheckbox29');" hidden/>
+		<label for="togglecheckbox29" name="valueforcheckbox29" id="valueforcheckbox29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 30 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox30" id="togglecheckbox30" onclick="yesno('togglecheckbox30','valueforcheckbox30');" hidden/>
+		<label for="togglecheckbox30" name="valueforcheckbox30" id="valueforcheckbox30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 31 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox31" id="togglecheckbox31" onclick="yesno('togglecheckbox31','valueforcheckbox31');" hidden/>
+		<label for="togglecheckbox31" name="valueforcheckbox31" id="valueforcheckbox31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 32 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox32" id="togglecheckbox32" onclick="yesno('togglecheckbox32','valueforcheckbox32');" hidden/>
+		<label for="togglecheckbox32" name="valueforcheckbox32" id="valueforcheckbox32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 33 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox33" id="togglecheckbox33" onclick="yesno('togglecheckbox33','valueforcheckbox33');" hidden/>
+		<label for="togglecheckbox33" name="valueforcheckbox33" id="valueforcheckbox33">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 34 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox34" id="togglecheckbox34" onclick="yesno('togglecheckbox34','valueforcheckbox34');" hidden/>
+		<label for="togglecheckbox34" name="valueforcheckbox34" id="valueforcheckbox34">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 35 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox35" id="togglecheckbox35" onclick="yesno('togglecheckbox35','valueforcheckbox35');" hidden/>
+		<label for="togglecheckbox35" name="valueforcheckbox35" id="valueforcheckbox35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 36 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox36" id="togglecheckbox36" onclick="yesno('togglecheckbox36','valueforcheckbox36');" hidden/>
+		<label for="togglecheckbox36" name="valueforcheckbox36" id="valueforcheckbox36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 37 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox37" id="togglecheckbox37" onclick="yesno('togglecheckbox37','valueforcheckbox37');" hidden/>
+		<label for="togglecheckbox37" name="valueforcheckbox37" id="valueforcheckbox37">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 38 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox38" id="togglecheckbox38" onclick="yesno('togglecheckbox38','valueforcheckbox38');" hidden/>
+		<label for="togglecheckbox38" name="valueforcheckbox38" id="valueforcheckbox38">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 39 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox39" id="togglecheckbox39" onclick="yesno('togglecheckbox39','valueforcheckbox39');" hidden/>
+		<label for="togglecheckbox39" name="valueforcheckbox39" id="valueforcheckbox39">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 40 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox40" id="togglecheckbox40" onclick="yesno('togglecheckbox40','valueforcheckbox40');" hidden/>
+		<label for="togglecheckbox40" name="valueforcheckbox40" id="valueforcheckbox40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 41 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox41" id="togglecheckbox41" onclick="yesno('togglecheckbox41','valueforcheckbox41');" hidden/>
+		<label for="togglecheckbox41" name="valueforcheckbox41" id="valueforcheckbox41">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 42 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox42" id="togglecheckbox42" onclick="yesno('togglecheckbox42','valueforcheckbox42');" hidden/>
+		<label for="togglecheckbox42" name="valueforcheckbox42" id="valueforcheckbox42">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 43 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox43" id="togglecheckbox43" onclick="yesno('togglecheckbox43','valueforcheckbox43');" hidden/>
+		<label for="togglecheckbox43" name="valueforcheckbox43" id="valueforcheckbox43">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 44 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox44" id="togglecheckbox44" onclick="yesno('togglecheckbox44','valueforcheckbox44');" hidden/>
+		<label for="togglecheckbox44" name="valueforcheckbox44" id="valueforcheckbox44">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 45 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox45" id="togglecheckbox45" onclick="yesno('togglecheckbox45','valueforcheckbox45');" hidden/>
+		<label for="togglecheckbox45" name="valueforcheckbox45" id="valueforcheckbox45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 46 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox46" id="togglecheckbox46" onclick="yesno('togglecheckbox46','valueforcheckbox46');" hidden/>
+		<label for="togglecheckbox46" name="valueforcheckbox46" id="valueforcheckbox46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 47 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox47" id="togglecheckbox47" onclick="yesno('togglecheckbox47','valueforcheckbox47');" hidden/>
+		<label for="togglecheckbox47" name="valueforcheckbox47" id="valueforcheckbox47">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 48 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox48" id="togglecheckbox48" onclick="yesno('togglecheckbox48','valueforcheckbox48');" hidden/>
+		<label for="togglecheckbox48" name="valueforcheckbox48" id="valueforcheckbox48">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 49 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox49" id="togglecheckbox49" onclick="yesno('togglecheckbox49','valueforcheckbox49');" hidden/>
+		<label for="togglecheckbox49" name="valueforcheckbox49" id="valueforcheckbox49">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 50 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox50" id="togglecheckbox50" onclick="yesno('togglecheckbox50','valueforcheckbox50');" hidden/>
+		<label for="togglecheckbox50" name="valueforcheckbox50" id="valueforcheckbox50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 51 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox51" id="togglecheckbox51" onclick="yesno('togglecheckbox51','valueforcheckbox51');" hidden/>
+		<label for="togglecheckbox51" name="valueforcheckbox51" id="valueforcheckbox51">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 52 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox52" id="togglecheckbox52" onclick="yesno('togglecheckbox52','valueforcheckbox52');" hidden/>
+		<label for="togglecheckbox52" name="valueforcheckbox52" id="valueforcheckbox52">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 53 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox53" id="togglecheckbox53" onclick="yesno('togglecheckbox53','valueforcheckbox53');" hidden/>
+		<label for="togglecheckbox53" name="valueforcheckbox53" id="valueforcheckbox53">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 54 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox54" id="togglecheckbox54" onclick="yesno('togglecheckbox54','valueforcheckbox54');" hidden/>
+		<label for="togglecheckbox54" name="valueforcheckbox54" id="valueforcheckbox54">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 55 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox55" id="togglecheckbox55" onclick="yesno('togglecheckbox55','valueforcheckbox55');" hidden/>
+		<label for="togglecheckbox55" name="valueforcheckbox55" id="valueforcheckbox55">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 56 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox56" id="togglecheckbox56" onclick="yesno('togglecheckbox56','valueforcheckbox56');" hidden/>
+		<label for="togglecheckbox56" name="valueforcheckbox56" id="valueforcheckbox56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 57 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox57" id="togglecheckbox57" onclick="yesno('togglecheckbox57','valueforcheckbox57');" hidden/>
+		<label for="togglecheckbox57" name="valueforcheckbox57" id="valueforcheckbox57">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 58 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox58" id="togglecheckbox58" onclick="yesno('togglecheckbox58','valueforcheckbox58');" hidden/>
+		<label for="togglecheckbox58" name="valueforcheckbox58" id="valueforcheckbox58">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 59 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox59" id="togglecheckbox59" onclick="yesno('togglecheckbox59','valueforcheckbox59');" hidden/>
+		<label for="togglecheckbox59" name="valueforcheckbox59" id="valueforcheckbox59">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 60 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox60" id="togglecheckbox60" onclick="yesno('togglecheckbox60','valueforcheckbox60');" hidden/>
+		<label for="togglecheckbox60" name="valueforcheckbox60" id="valueforcheckbox60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 61 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox61" id="togglecheckbox61" onclick="yesno('togglecheckbox61','valueforcheckbox61');" hidden/>
+		<label for="togglecheckbox61" name="valueforcheckbox61" id="valueforcheckbox61">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 62 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox62" id="togglecheckbox62" onclick="yesno('togglecheckbox62','valueforcheckbox62');" hidden/>
+		<label for="togglecheckbox62" name="valueforcheckbox62" id="valueforcheckbox62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 63 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox63" id="togglecheckbox63" onclick="yesno('togglecheckbox63','valueforcheckbox63');" hidden/>
+		<label for="togglecheckbox63" name="valueforcheckbox63" id="valueforcheckbox63">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 64 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox64" id="togglecheckbox64" onclick="yesno('togglecheckbox64','valueforcheckbox64');" hidden/>
+		<label for="togglecheckbox64" name="valueforcheckbox64" id="valueforcheckbox64">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 65 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox65" id="togglecheckbox65" onclick="yesno('togglecheckbox65','valueforcheckbox65');" hidden/>
+		<label for="togglecheckbox65" name="valueforcheckbox65" id="valueforcheckbox65">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 66 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox66" id="togglecheckbox66" onclick="yesno('togglecheckbox66','valueforcheckbox66');" hidden/>
+		<label for="togglecheckbox66" name="valueforcheckbox66" id="valueforcheckbox66">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 67 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox67" id="togglecheckbox67" onclick="yesno('togglecheckbox67','valueforcheckbox67');" hidden/>
+		<label for="togglecheckbox67" name="valueforcheckbox67" id="valueforcheckbox67">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 68 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox68" id="togglecheckbox68" onclick="yesno('togglecheckbox68','valueforcheckbox68');" hidden/>
+		<label for="togglecheckbox68" name="valueforcheckbox68" id="valueforcheckbox68">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 69 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox69" id="togglecheckbox69" onclick="yesno('togglecheckbox69','valueforcheckbox69');" hidden/>
+		<label for="togglecheckbox69" name="valueforcheckbox69" id="valueforcheckbox69">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 70 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox70" id="togglecheckbox70" onclick="yesno('togglecheckbox70','valueforcheckbox70');" hidden/>
+		<label for="togglecheckbox70" name="valueforcheckbox70" id="valueforcheckbox70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 71 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox71" id="togglecheckbox71" onclick="yesno('togglecheckbox71','valueforcheckbox71');" hidden/>
+		<label for="togglecheckbox71" name="valueforcheckbox71" id="valueforcheckbox71">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 72 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox72" id="togglecheckbox72" onclick="yesno('togglecheckbox72','valueforcheckbox72');" hidden/>
+		<label for="togglecheckbox72" name="valueforcheckbox72" id="valueforcheckbox72">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 73 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox73" id="togglecheckbox73" onclick="yesno('togglecheckbox73','valueforcheckbox73');" hidden/>
+		<label for="togglecheckbox73" name="valueforcheckbox73" id="valueforcheckbox73">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 74 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox74" id="togglecheckbox74" onclick="yesno('togglecheckbox74','valueforcheckbox74');" hidden/>
+		<label for="togglecheckbox74" name="valueforcheckbox74" id="valueforcheckbox74">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 75 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox75" id="togglecheckbox75" onclick="yesno('togglecheckbox75','valueforcheckbox75');" hidden/>
+		<label for="togglecheckbox75" name="valueforcheckbox75" id="valueforcheckbox75">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 76 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox76" id="togglecheckbox76" onclick="yesno('togglecheckbox76','valueforcheckbox76');" hidden/>
+		<label for="togglecheckbox76" name="valueforcheckbox76" id="valueforcheckbox76">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 77 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox77" id="togglecheckbox77" onclick="yesno('togglecheckbox77','valueforcheckbox77');" hidden/>
+		<label for="togglecheckbox77" name="valueforcheckbox77" id="valueforcheckbox77">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 78 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox78" id="togglecheckbox78" onclick="yesno('togglecheckbox78','valueforcheckbox78');" hidden/>
+		<label for="togglecheckbox78" name="valueforcheckbox78" id="valueforcheckbox78">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 79 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox79" id="togglecheckbox79" onclick="yesno('togglecheckbox79','valueforcheckbox79');" hidden/>
+		<label for="togglecheckbox79" name="valueforcheckbox79" id="valueforcheckbox79">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 80 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox80" id="togglecheckbox80" onclick="yesno('togglecheckbox80','valueforcheckbox80');" hidden/>
+		<label for="togglecheckbox80" name="valueforcheckbox80" id="valueforcheckbox80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 81 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox81" id="togglecheckbox81" onclick="yesno('togglecheckbox81','valueforcheckbox81');" hidden/>
+		<label for="togglecheckbox81" name="valueforcheckbox81" id="valueforcheckbox81">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 82 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox82" id="togglecheckbox82" onclick="yesno('togglecheckbox82','valueforcheckbox82');" hidden/>
+		<label for="togglecheckbox82" name="valueforcheckbox82" id="valueforcheckbox82">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 83 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox83" id="togglecheckbox83" onclick="yesno('togglecheckbox83','valueforcheckbox83');" hidden/>
+		<label for="togglecheckbox83" name="valueforcheckbox83" id="valueforcheckbox83">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 84 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox84" id="togglecheckbox84" onclick="yesno('togglecheckbox84','valueforcheckbox84');" hidden/>
+		<label for="togglecheckbox84" name="valueforcheckbox84" id="valueforcheckbox84">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 85 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox85" id="togglecheckbox85" onclick="yesno('togglecheckbox85','valueforcheckbox85');" hidden/>
+		<label for="togglecheckbox85" name="valueforcheckbox85" id="valueforcheckbox85">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 86 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox86" id="togglecheckbox86" onclick="yesno('togglecheckbox86','valueforcheckbox86');" hidden/>
+		<label for="togglecheckbox86" name="valueforcheckbox86" id="valueforcheckbox86">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 87 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox87" id="togglecheckbox87" onclick="yesno('togglecheckbox87','valueforcheckbox87');" hidden/>
+		<label for="togglecheckbox87" name="valueforcheckbox87" id="valueforcheckbox87">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 88 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox88" id="togglecheckbox88" onclick="yesno('togglecheckbox88','valueforcheckbox88');" hidden/>
+		<label for="togglecheckbox88" name="valueforcheckbox88" id="valueforcheckbox88">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 89 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox89" id="togglecheckbox89" onclick="yesno('togglecheckbox89','valueforcheckbox89');" hidden/>
+		<label for="togglecheckbox89" name="valueforcheckbox89" id="valueforcheckbox89">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 90 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox90" id="togglecheckbox90" onclick="yesno('togglecheckbox90','valueforcheckbox90');" hidden/>
+		<label for="togglecheckbox90" name="valueforcheckbox90" id="valueforcheckbox90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 91 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox91" id="togglecheckbox91" onclick="yesno('togglecheckbox91','valueforcheckbox91');" hidden/>
+		<label for="togglecheckbox91" name="valueforcheckbox91" id="valueforcheckbox91">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 92 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox92" id="togglecheckbox92" onclick="yesno('togglecheckbox92','valueforcheckbox92');" hidden/>
+		<label for="togglecheckbox92" name="valueforcheckbox92" id="valueforcheckbox92">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 93 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox93" id="togglecheckbox93" onclick="yesno('togglecheckbox93','valueforcheckbox93');" hidden/>
+		<label for="togglecheckbox93" name="valueforcheckbox93" id="valueforcheckbox93">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 94 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox94" id="togglecheckbox94" onclick="yesno('togglecheckbox94','valueforcheckbox94');" hidden/>
+		<label for="togglecheckbox94" name="valueforcheckbox94" id="valueforcheckbox94">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 95 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox95" id="togglecheckbox95" onclick="yesno('togglecheckbox95','valueforcheckbox95');" hidden/>
+		<label for="togglecheckbox95" name="valueforcheckbox95" id="valueforcheckbox95">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 96 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox96" id="togglecheckbox96" onclick="yesno('togglecheckbox96','valueforcheckbox96');" hidden/>
+		<label for="togglecheckbox96" name="valueforcheckbox96" id="valueforcheckbox96">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 97 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox97" id="togglecheckbox97" onclick="yesno('togglecheckbox97','valueforcheckbox97');" hidden/>
+		<label for="togglecheckbox97" name="valueforcheckbox97" id="valueforcheckbox97">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 98 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox98" id="togglecheckbox98" onclick="yesno('togglecheckbox98','valueforcheckbox98');" hidden/>
+		<label for="togglecheckbox98" name="valueforcheckbox98" id="valueforcheckbox98">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 99 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox99" id="togglecheckbox99" onclick="yesno('togglecheckbox99','valueforcheckbox99');" hidden/>
+		<label for="togglecheckbox99" name="valueforcheckbox99" id="valueforcheckbox99">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
+<tr> <!-- 100 -->
+	<td contenteditable="true" style="font-size:11pt;">
+		Insert text here. 
+		<br>
+		<small>	<i><b>Note:</b> Insert text here.</i></small>
+
+	</td>
+	<td contenteditable="true" style="font-size:11pt;text-align:center; font-weight:bold">
+		<input type="checkbox" name="togglecheckbox100" id="togglecheckbox100" onclick="yesno('togglecheckbox100','valueforcheckbox100');" hidden/>
+		<label for="togglecheckbox100" name="valueforcheckbox100" id="valueforcheckbox100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	</td>
+	<td contenteditable="true" style="font-size:11pt; font-style: italic; text-align:center; font-weight:bold"></td>
+</tr>
+
