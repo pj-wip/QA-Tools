@@ -16,3 +16,7 @@ Work through test cases with an interactive checklist built for QA sessions. Onc
 ## Acknowledgements
 
 The screenshot feature uses **[html2canvas](https://github.com/niklasvh/html2canvas)** by [Niklas von Hertzen](https://github.com/niklasvh) — a JavaScript library that enables screenshots to be taken directly in the browser.
+
+---
+
+*Since 2023*
